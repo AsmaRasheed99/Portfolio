@@ -1,0 +1,213 @@
+.card {
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  
+  body {
+    background-color: #44107a;
+    background-repeat: repeat;
+    overflow-x: hidden;
+  
+    
+  }
+  
+  /* transition */
+  h1 {
+    color:#d8b5de;
+      font-family: monospace;
+    letter-spacing: 7px;
+    cursor: auto;
+  }
+  
+  h1 span {
+    transition: 0.2s ease-out;
+  }
+  h1:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  
+  h1:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
+  /* h2 animations */
+  p {
+    animation: fadeIn 5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* footer animations */
+  .dance {
+    transform-origin: center bottom;
+    animation: swing 2s infinite;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
+  /* text */
+  h2 {
+    text-transform: uppercase;
+   background-image: linear-gradient(
+     -225deg,
+     #231557 0%,
+     #44107a 29%,
+     #ff1361 67%,
+     #fff800 100%
+   );
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 4s linear infinite;
+   display: inline-block;
+       font-size: 3rem;
+  }
+  
+  @keyframes textclip {
+   to {
+     background-position: -200% center;
+   }
+   
+  }
+  /* text */
+  article {
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 300;
+    animation: lights 5s 750ms linear infinite;
+  }
+  @keyframes lights {
+    0% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+    30% { 
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    40% { 
+      color: hsl(230, 100%, 95%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    70% {
+      color: hsl(230, 80%, 90%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 60%, 0.5),
+        0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+    
+    100% {
+      color: hsl(230, 40%, 80%);
+      text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+        -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+    
+  }
+  
+  /* card title */
+  @import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+   h5 {
+    font-size: 9rem;
+    
+     font-weight: bold;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+       from {
+        color: #fff;
+      text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+    }
+    
+    to {
+       color: gray;
+      text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+    }
+  }
+  /* card animation */
+  .fade {
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  /* menu */
+ .nav-link {
+  font-size: x-large;
+  margin-left: 1em;
+ }
+ .dropdown-item {
+  font-size:x-large;
+ }
