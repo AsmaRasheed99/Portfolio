@@ -7,4 +7,5 @@
 * BOOTSTRAP 
 * FIGMA 
 * VSCODE
-  [] (https://www.figma.com/file/LzEbpSCFbhOMgasydVf7iL/Untitled?t=3txalT9hTCv0rTI7-6)
+
+   [Figma link](https://www.figma.com/file/LzEbpSCFbhOMgasydVf7iL/Untitled?t=3txalT9hTCv0rTI7-6) 
