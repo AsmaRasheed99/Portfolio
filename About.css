@@ -16,38 +16,21 @@
 
 body {
   background-color: #44107a;
-  background-repeat: repeat;
   overflow-x: hidden;
 
 
 }
 
-/* transition */
+
 h1 {
   color: #d8b5de;
   font-family: monospace;
+  font-size: 4rem;
   letter-spacing: 7px;
   cursor: auto;
 }
 
-h1 span {
-  transition: 0.2s ease-out;
-}
 
-h1:hover span:nth-child(1) {
-  margin-right: 5px;
-}
-
-h1:hover span:nth-child(2) {
-  margin-left: 30px;
-}
-
-h1:hover span {
-  color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
-}
-
-/* h2 animations */
 p {
   animation: fadeIn 5s ease-in-out;
 }
@@ -179,7 +162,7 @@ h5 {
   animation: glow 2s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     color: #ef49a4;
     text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
@@ -222,4 +205,4 @@ h5 {
 .text-center {
   color: gray;
 }
-/* menu */
+
