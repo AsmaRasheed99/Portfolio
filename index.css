@@ -5,9 +5,6 @@ body {
 
 .btn {
   position: relative;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
   background:rgb(231, 7, 149);
   padding: 1em 2em;
   border: none;
@@ -40,7 +37,7 @@ body {
 
 p {
   text-align: center;
-  margin-top: 1cm;
+  margin-top: 1em;
   text-shadow: 1px 1px 2px white;
   font-size: xx-large;
   font-family:'Times New Roman', Times, serif;
@@ -59,11 +56,28 @@ h2 {
   color: #880747;
 }
 h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 3vw;
-  color:#880747;
-  text-shadow: 3px 3px 5px #080443;
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #c40b7a 29%,
+      #d8b5de 67%,
+      #2011e5 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
+  font-size: 3rem;
+}
+@keyframes textclip {
+  to {
+    background-position: -200% center;
+  }
+
 }
 .nav-link {
   font-size: x-large;
