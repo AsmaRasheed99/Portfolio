@@ -59,15 +59,6 @@ p {
 main {
   overflow: auto;
 }
-
-.skills {
-  text-align: center;
-  margin-top: 3cm;
-  font-size: 60px;
-  font-family: cursive;
-  color: white;
-  text-shadow: 5px 5px 7px rgb(20, 20, 71);
-}
 .mask {
 margin-top: 15em;
 height: 20em;
