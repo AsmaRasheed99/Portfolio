@@ -11,5 +11,3 @@
 ###   [Figma link](https://www.figma.com/file/LzEbpSCFbhOMgasydVf7iL/Untitled?t=3txalT9hTCv0rTI7-6) 
 
 [Live Url](https://asmarasheed99.github.io/Portfolio/)
-
-

@@ -47,7 +47,14 @@ p {
 main {
   overflow: auto;
 }
+<<<<<<< HEAD
 
+=======
+.mask {
+margin-top: 19em;
+height: 25em;
+}
+>>>>>>> 8491abae3fff64c41145d6a066752fe25af3c623
 h2 {
   font-family:'Times New Roman', Times, serif;
   color: #880747;
@@ -80,6 +87,7 @@ h1 {
   font-size: xx-large;
   margin-left: 1em;
 }
+<<<<<<< HEAD
 /* footer animations */
 .dance {
     transform-origin: center bottom;
@@ -136,3 +144,8 @@ font-size: 1em;
       font-size: 1em;
     }
   }
+=======
+.dropdown-item {
+  font-size:x-large;
+ }
+>>>>>>> 8491abae3fff64c41145d6a066752fe25af3c623
