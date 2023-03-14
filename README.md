@@ -1,11 +1,15 @@
-# Portfolio
-## My portfolio 
+# Portfolio Project
+## Build a responsive portfolio that displays y skills, work , achievements and experiences.
 
-### tools used
+### Technologies used :
 * HTML
 * CSS
 * BOOTSTRAP 
 * FIGMA 
 * VSCODE
 
-   [Figma link](https://www.figma.com/file/LzEbpSCFbhOMgasydVf7iL/Untitled?t=3txalT9hTCv0rTI7-6) 
+###   [Figma link](https://www.figma.com/file/LzEbpSCFbhOMgasydVf7iL/Untitled?t=3txalT9hTCv0rTI7-6) 
+
+[Live Url](https://asmarasheed99.github.io/Portfolio/)
+
+

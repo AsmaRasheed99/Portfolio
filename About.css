@@ -10,7 +10,7 @@
 
 body {
   background-color: #d8b5de;
-  overflow-x: hidden;
+  overflow: auto;
 
 
 }
@@ -35,6 +35,9 @@ p {
 .dance {
   transform-origin: center bottom;
   animation: swing 2s infinite;
+  color: #c40b7a;
+  border: #fff solid;
+  border-radius: 1em;
 }
 
 @keyframes swing {
@@ -69,6 +72,7 @@ h1, h2 {
   animation: textclip 4s linear infinite;
   display: inline-block;
   font-size: 3rem;
+  
 }
 
 @keyframes textclip {
@@ -139,26 +143,6 @@ article {
 /* card title */
 @import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
 
-h5 {
-  font-size: 9rem;
-
-  font-weight: bold;
-  -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in-out infinite alternate;
-  animation: glow 2s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from {
-    color: #ef49a4;
-    text-shadow: 0 0 5px #4d25de, 0 0 10px #4d25de, 0 0 15px #4d25de, 0 0 20px #4d25de, 0 0 25px #4d25de, 0 0 30px #4d25de, 0 0 35px #4d25de, 0 0 40px #4d25de;
-  }
-
-  to {
-    color: gray;
-    text-shadow: 0 0 5px #4d25de, 0 0 10px #4d25de, 0 0 15px #4d25de, 0 0 20px #4d25de, 0 0 25px #4d25de, 0 0 30px #4d25de, 0 0 35px #4d25de, 0 1 40px #4d25de;
-  }
-}
 
 /* card animation */
 .fade {
@@ -181,14 +165,34 @@ h5 {
   }
 }
 .nav-link {
-  font-size: x-large;
+  font-size: xx-large;
   margin-left: 1em;
 }
 
-.dropdown-item {
-  font-size: x-large;
-}
-.text-center {
-  color: gray;
+
+div.card-body {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #c40b7a 29%,
+      #8d349d 67%,
+      #2011e5 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: inline-block;
 }
 
+/* .navbar-toggler-icon {
+  color: #231557;
+  visibility: visible;
+} */
+/* .navbar-toggler{
+  background-color: #eee;
+  border: 2px solid black;
+} */

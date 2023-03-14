@@ -3,7 +3,7 @@ body {
   
 }
 
-.btn {
+.button {
   position: relative;
   background:rgb(231, 7, 149);
   padding: 1em 2em;
@@ -15,10 +15,10 @@ body {
   overflow: hidden;
   border-radius: 100px;
 }
-.btn span {
+.button span {
   position: relative;
 }
-.btn::before {
+.button::before {
   --size: 0;
   content: '';
   position: absolute;
@@ -31,7 +31,7 @@ body {
           transform: translate(-50%, -50%);
   transition: width .2s ease, height .2s ease;
 }
-.btn:hover::before {
+.button:hover::before {
   --size: 400px;
 }
 
@@ -39,7 +39,7 @@ p {
   text-align: center;
   margin-top: 1em;
   text-shadow: 1px 1px 2px white;
-  font-size: xx-large;
+  font-size: 2em;
   font-family:'Times New Roman', Times, serif;
  
   
@@ -47,10 +47,7 @@ p {
 main {
   overflow: auto;
 }
-.mask {
-margin-top: 15em;
-height: 20em;
-}
+
 h2 {
   font-family:'Times New Roman', Times, serif;
   color: #880747;
@@ -71,7 +68,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   animation: textclip 4s linear infinite;
   display: inline-block;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 @keyframes textclip {
   to {
@@ -80,9 +77,62 @@ h1 {
 
 }
 .nav-link {
-  font-size: x-large;
+  font-size: xx-large;
   margin-left: 1em;
 }
-.dropdown-item {
-  font-size:x-large;
- }
+/* footer animations */
+.dance {
+    transform-origin: center bottom;
+    animation: swing 2s infinite;
+    color: #c40b7a;
+    border: #fff solid;
+    border-radius: 1em;
+    padding: 1em;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(-10deg);
+    }
+  
+    50% {
+      transform: rotate(10deg);
+    }
+  
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
+  .text-white {
+    margin-left: 25em;
+    margin-top: 1em;
+  }
+  @media screen and (max-width:1120px) {
+    .text-white {
+        margin:15em;
+font-size: 1em;
+    }
+  }
+  @media screen and (max-width:570px) {
+    .text-white {
+        margin:5em ;
+        font-size:0.7em ;
+    }
+    
+  }
+  @media screen and (max-width:340px) {
+    .text-white {
+        margin:0em ;
+        font-size: 0.7em;
+    }
+    
+  }
+  @media screen and (max-width:245px) {
+    .text-white {
+        margin:0em ;
+        font-size: 0.3em;
+    }
+    h2 {
+      font-size: 1em;
+    }
+  }
