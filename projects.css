@@ -64,8 +64,8 @@ h2 {
     left: -1rem;
     
   }
-  @media all and (max-width:500px) {
-    .img-fluid {
-     
+  @media screen and (max-width: 768px) {
+    . {
+      border: none;
     }
   }

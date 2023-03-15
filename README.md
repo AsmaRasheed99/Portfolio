@@ -1,5 +1,5 @@
 # Portfolio Project
-## Build a responsive portfolio that displays y skills, work , achievements and experiences.
+## a personal responsive portfolio that displays my skills, work , achievements and experiences.
 ## Technologies used :
 1. HTML
 2. CSS
